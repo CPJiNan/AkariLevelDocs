@@ -11,8 +11,8 @@ hero:
     alt: AkariLevel
   actions:
     - theme: brand
-      text: 文档
-      link: /start/command/
+      text: 开始
+      link: /start/install/
     - theme: alt
       text: 开发
       link: /develop/api/levelgroup/

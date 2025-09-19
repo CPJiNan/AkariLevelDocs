@@ -10,6 +10,7 @@ export default defineConfig({
     themeConfig: {
         nav: [
             {text: '主页', link: '/'},
+            {text: '文档', link: '/start/install/'},
             {text: '开发', link: '/develop/api/levelgroup/'}
         ],
 
@@ -17,6 +18,7 @@ export default defineConfig({
             {
                 text: '🔥 开始',
                 items: [
+                    {text: '💻 安装 & 配置', link: '/start/install/'},
                     {text: '🔧 命令', link: '/start/command/'},
                     {text: '🔒 权限', link: '/start/permission/'},
                     {text: '🏷 变量', link: '/start/placeholder/'},
