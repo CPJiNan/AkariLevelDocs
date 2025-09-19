@@ -27,7 +27,7 @@ features:
   - title: 🏷 变量
     details: 提供了丰富的 PlaceholderAPI 变量
   - title: 🗡 经验掉落
-    details: 兼容 MythicMobs，为怪物配置经验掉落
+    details: 兼容 MythicMobs，配置怪物的经验掉落
   - title: 📦 数据库
     details: 支持 SQLite / MySQL 数据库
   - title: ⏱ 缓存机制
