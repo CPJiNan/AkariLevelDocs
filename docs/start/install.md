@@ -130,7 +130,7 @@ var levelGroupNames = ["AdventureLevel", "SurvivalLevel"];
 
 你可以 `追踪` 某个等级组，在原版经验条上显示该等级组的等级进度。
 
-使用前需要在 `Track.js` 脚本中，配置要追踪的等级组编辑名。
+使用前需要在 `Track.js` 脚本中配置要追踪的等级组编辑名。
 
 ``` javascript
 var levelGroupName = "Example";
