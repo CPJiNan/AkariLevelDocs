@@ -5,7 +5,7 @@ export default defineConfig({
     title: "AkariLevel",
     description: "A VitePress Site",
     head: [
-        ['link', {rel: 'icon', href: '/AkariLevelDocs/favicon.png'}]
+        ['link', {rel: 'icon', href: '/favicon.png'}]
     ],
     themeConfig: {
         nav: [
