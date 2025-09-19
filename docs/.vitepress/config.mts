@@ -20,7 +20,7 @@ export default defineConfig({
                     {
                         text: '📦 API',
                         items: [
-                            {text: '等级组', link: '/develop/api/levelgroup'},
+                            {text: '等级组', link: '/develop/api/levelgroup/'},
                         ]
                     }
                 ]
@@ -29,6 +29,15 @@ export default defineConfig({
 
         socialLinks: [
             {icon: 'github', link: 'https://github.com/CPJiNan/AkariLevel'}
-        ]
-    }
+        ],
+
+        search: {
+            provider: 'local'
+        },
+
+        editLink: {
+            pattern: 'https://github.com/CPJiNan/AkariLevelDocs/tree/master/docs/:path'
+        }
+    },
+    lastUpdated: true
 })
