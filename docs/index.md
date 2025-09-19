@@ -7,8 +7,8 @@ hero:
   text: 澄明等级
   tagline: 基于 TabooLib 框架开发的 Bukkit 等级插件
   image:
-    src: /logo.png
-    alt: VitePress
+    src: /AkariLevelDocs/favicon.png
+    alt: AkariLevel
   actions:
     - theme: brand
       text: Markdown Examples
