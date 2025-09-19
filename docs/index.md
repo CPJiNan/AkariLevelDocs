@@ -18,11 +18,29 @@ hero:
       link: /develop/api/
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 📈 多等级组
+    details: 允许创建多个等级组
+  - title: 🎮 聊天栏编辑器
+    details: 通过点击聊天栏文本管理等级组 / 修改玩家数据
+  - title: 💎 Kether
+    details: 使用 **Kether 脚本** 设置升级动作 / 条件
+  - title: 🏷 变量
+    details: 提供了丰富的 **PlaceholderAPI** 变量
+  - title: 🗡 经验掉落
+    details: 兼容 **MythicMobs**，使用 `Exp-Drops` 为怪物配置经验掉落
+  - title: 📦 数据库
+    details: 支持 **SQLite / MySQL** 数据库
+  - title: ⏱ 缓存机制
+    details: 基于 **caffeine** 的数据缓存
+  - title: 🚀 异步处理
+    details: 使用 **TabooLib 调度器** 异步保存数据
+  - title: 📄 多语言
+    details: 允许自定义语言文件
+  - title: 📜 脚本
+    details: 使用 **JavaScript** 监听事件、调用方法
+  - title: 📌 API
+    details: 提供了高度自定义的接口，便于附属插件的开发
+  - title: ✨ 更多
+    details: ...
 ---
 
