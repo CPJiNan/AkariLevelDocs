@@ -15,10 +15,22 @@ export default defineConfig({
 
         sidebar: [
             {
+                text: '🔥 开始',
+                collapsed: true,
+                items: [
+                    {text: '🔧 命令', link: '/start/command/'},
+                    {text: '🔒 权限', link: '/start/permission/'},
+                    {text: '🏷 变量', link: '/start/placeholder/'},
+                    {text: '🗡 经验掉落', link: '/start/drop/'}
+                ]
+            },
+            {
                 text: '🛠️ 开发',
+                collapsed: true,
                 items: [
                     {
                         text: '📦 API',
+                        collapsed: true,
                         items: [
                             {text: 'LevelGroup', link: '/develop/api/levelgroup/'},
                             {text: 'ConfigLevelGroup', link: '/develop/api/configlevelgroup/'}

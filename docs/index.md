@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 文档
-      link: /
+      link: /start/command/
     - theme: alt
       text: 开发
       link: /develop/api/levelgroup/
