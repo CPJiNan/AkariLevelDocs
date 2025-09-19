@@ -15,7 +15,7 @@ hero:
       link: /
     - theme: alt
       text: 开发
-      link: /develop/api/
+      link: /develop/
 
 features:
   - title: 📈 多等级组
