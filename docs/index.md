@@ -11,11 +11,11 @@ hero:
     alt: AkariLevel
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: 文档
       link: /
     - theme: alt
       text: 开发
-      link: /develop/api
+      link: /develop/api/
 
 features:
   - title: Feature A
