@@ -3,28 +3,32 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     base: '/AkariLevelDocs/',
     title: "AkariLevel",
-    description: "A VitePress Site",
+    description: "澄明等级",
     head: [
         ['link', {rel: 'icon', href: '/AkariLevelDocs/favicon.png'}]
     ],
     themeConfig: {
         nav: [
-            {text: 'Home', link: '/'},
-            {text: 'Examples', link: '/markdown-examples'}
+            {text: '主页', link: '/'},
+            {text: '开发', link: '/develop'}
         ],
 
         sidebar: [
             {
-                text: 'Examples',
+                text: '🛠️ 开发',
                 items: [
-                    {text: 'Markdown Examples', link: '/markdown-examples'},
-                    {text: 'Runtime API Examples', link: '/api-examples'}
+                    {
+                        text: '📦 API',
+                        items: [
+                            {text: '等级组', link: '/develop/api/levelgroup'},
+                        ]
+                    }
                 ]
             }
         ],
 
         socialLinks: [
-            {icon: 'github', link: 'https://github.com/vuejs/vitepress'}
+            {icon: 'github', link: 'https://github.com/CPJiNan/AkariLevel'}
         ]
     }
 })
