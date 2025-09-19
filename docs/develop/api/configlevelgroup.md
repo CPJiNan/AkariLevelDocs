@@ -6,10 +6,6 @@
 
 它是插件默认的 `LevelGroup` 接口实现，可以从配置文件获取等级组。
 
-重写部分方法的同时，`ConfigLevelGroup` 还新增了 `levelUpMember`、`checkLevelCondition`、`runLevelAction` 等方法以实现额外功能。
-
-其中，一些拓展功能通过重写 `onMemberLevelChange` 等回调函数实现，这些回调函数会在事件之后被触发。
-
 ## 用例
 
 1. 通过配置文件获取并注册等级组实例
