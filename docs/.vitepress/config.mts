@@ -16,7 +16,6 @@ export default defineConfig({
         sidebar: [
             {
                 text: '🔥 开始',
-                collapsed: true,
                 items: [
                     {text: '🔧 命令', link: '/start/command/'},
                     {text: '🔒 权限', link: '/start/permission/'},
@@ -26,11 +25,9 @@ export default defineConfig({
             },
             {
                 text: '🛠️ 开发',
-                collapsed: true,
                 items: [
                     {
                         text: '📦 API',
-                        collapsed: true,
                         items: [
                             {text: 'LevelGroup', link: '/develop/api/levelgroup/'},
                             {text: 'ConfigLevelGroup', link: '/develop/api/configlevelgroup/'}
