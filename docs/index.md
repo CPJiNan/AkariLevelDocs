@@ -3,9 +3,12 @@
 layout: home
 
 hero:
-  name: "AkariLevel"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: AkariLevel
+  text: 澄明等级
+  tagline: 基于 TabooLib 框架开发的 Bukkit 等级插件
+  image:
+    src: /logo.png
+    alt: VitePress
   actions:
     - theme: brand
       text: Markdown Examples
