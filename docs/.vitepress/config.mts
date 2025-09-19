@@ -20,7 +20,7 @@ export default defineConfig({
                     {
                         text: '📦 API',
                         items: [
-                            {text: '等级组', link: '/develop/api/levelgroup/'},
+                            {text: '等级组 | LevelGroup', link: '/develop/api/levelgroup/'},
                         ]
                     }
                 ]
