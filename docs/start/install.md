@@ -114,3 +114,25 @@ Key:
 关键等级配置中可以使用 `{member}`、`{levelGroup}`、`{level}` 等插件内置变量，同时也支持使用 `PlaceholderAPI` 变量。
 
 处于非关键等级时，将自动应用上一个关键等级的设置。
+
+### 自动加入等级组
+
+除了使用命令新增等级组成员之外，你还可以使用 `AutoJoin.js` 脚本将玩家自动加入等级组。
+
+该脚本位于 `script` 文件夹中，使用前需要配置自动加入的等级组列表。
+
+``` javascript
+var levelGroupNames = ["AdventureLevel", "SurvivalLevel"];
+...
+```
+
+### 在原版经验条上显示等级进度
+
+你可以 `追踪` 某个等级组，在原版经验条上显示该等级组的等级进度。
+
+使用前需要在 `Track.js` 脚本中，配置要追踪的等级组编辑名。
+
+``` javascript
+var levelGroupName = "Example";
+...
+```
