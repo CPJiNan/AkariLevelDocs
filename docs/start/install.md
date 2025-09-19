@@ -124,7 +124,7 @@ var levelGroupNames = ["AdventureLevel", "SurvivalLevel"];
 ...
 ```
 
-## 在原版经验条上显示等级进度
+## 追踪等级组
 
 你可以 `追踪` 某个等级组，在原版经验条上显示该等级组的等级进度。
 
