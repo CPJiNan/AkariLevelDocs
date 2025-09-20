@@ -134,3 +134,30 @@ var levelGroupNames = ["AdventureLevel", "SurvivalLevel"];
 var levelGroupName = "Example";
 ...
 ```
+
+## 经验加成属性
+
+通过读取 `AttributePlus` 等属性插件的经验加成变量，可以对经验进行加成。
+
+使用前需要在 `ExpAddition.js` 脚本中进行配置。
+
+``` javascript
+var enable = true;
+var sources = ["MYTHICMOBS_DROP_EXP"];
+var placeholder = "%ap_exp_addition:max%";
+...
+```
+
+## 队伍经验共享
+
+通过 `DungeonPlus` 等插件的组队功能，可以使队伍内玩家共享经验。
+
+使用前需要在 `TeamShareExp.js` 脚本中进行配置。
+
+``` javascript
+var enable = false;
+var sources = ["MYTHICMOBS_DROP_EXP", "VANILLA_EXP_CHANGE"];
+var leaderWeight = 1
+var memberWeight = 1
+...
+```
