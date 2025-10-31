@@ -11,7 +11,6 @@ export default defineConfig({
         nav: [
             {text: '主页', link: '/'},
             {text: '文档', link: '/start/install/'},
-            {text: '开发', link: '/develop/api/levelgroup/'}
         ],
 
         sidebar: [

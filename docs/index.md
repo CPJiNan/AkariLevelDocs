@@ -11,11 +11,14 @@ hero:
     alt: AkariLevel
   actions:
     - theme: brand
-      text: 开始
+      text: 开始使用 →
       link: /start/install/
     - theme: alt
-      text: 开发
-      link: /develop/api/levelgroup/
+      text: Github
+      link: https://github.com/CPJiNan/AkariLevel
+    - theme: alt
+      text: QQ 群
+      link: https://qm.qq.com/q/91DcdBuRvW
 
 features:
   - title: 📈 多等级组
