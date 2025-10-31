@@ -9,10 +9,11 @@ export default defineConfig({
     ],
     themeConfig: {
         nav: [
-            {text: '文档', link: '/start/install/'},
+            {text: '文档', link: '/intro/'},
         ],
 
         sidebar: [
+            {text: 'AkariLevel 简介', link: '/intro/'},
             {
                 text: '🔥 开始',
                 items: [
