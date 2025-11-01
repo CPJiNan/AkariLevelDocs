@@ -15,6 +15,17 @@ export default defineConfig({
         sidebar: [
             {text: 'AkariLevel 简介', link: '/intro/'},
             {
+                text: '🏷 基础教程',
+                items: [
+                    {
+                        text: '脚本拓展（基础）',
+                        items: [
+                            {text: 'AutoJoin', link: '/basic/script/autojoin/'},
+                        ]
+                    }
+                ]
+            },
+            {
                 text: '🔥 开始',
                 items: [
                     {text: '💻 安装 & 配置', link: '/start/install/'},
