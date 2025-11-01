@@ -1,4 +1,4 @@
-# AkariLevel 简介
+# 插件简介
 
 ![](/cover.png)
 
