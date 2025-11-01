@@ -13,7 +13,7 @@ export default defineConfig({
         ],
 
         sidebar: [
-            {text: '插件简介', link: '/intro/'},
+            {text: '✨ 插件简介', link: '/intro/'},
             {
                 text: '🏷 基础教程',
                 items: [
