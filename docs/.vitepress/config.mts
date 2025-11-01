@@ -22,6 +22,8 @@ export default defineConfig({
                         link: '/basic/script/',
                         items: [
                             {text: 'AutoJoin', link: '/basic/script/autojoin/'},
+                            {text: 'ExpAddition', link: '/basic/script/expaddition/'},
+                            {text: 'ExpMessage', link: '/basic/script/expmessage/'}
                         ]
                     }
                 ]
