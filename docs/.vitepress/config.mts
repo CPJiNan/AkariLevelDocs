@@ -25,6 +25,7 @@ export default defineConfig({
                             {text: 'ExpAddition', link: '/basic/script/expaddition/'},
                             {text: 'ExpMessage', link: '/basic/script/expmessage/'},
                             {text: 'TeamShareExp', link: '/basic/script/teamshareexp/'},
+                            {text: 'Track', link: '/basic/script/track/'},
                             {text: 'VanillaExp', link: '/basic/script/vanillaexp/'}
                         ]
                     }
