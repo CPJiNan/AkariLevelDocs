@@ -25,7 +25,8 @@ export default defineConfig({
                             {text: 'AutoJoin', link: '/basic/script/autojoin/'},
                             {text: 'ExpAddition', link: '/basic/script/expaddition/'},
                             {text: 'ExpMessage', link: '/basic/script/expmessage/'},
-                            {text: 'TeamShareExp', link: '/basic/script/teamshareexp/'}
+                            {text: 'TeamShareExp', link: '/basic/script/teamshareexp/'},
+                            {text: 'VanillaExp', link: '/basic/script/vanillaexp/'}
                         ]
                     }
                 ]
