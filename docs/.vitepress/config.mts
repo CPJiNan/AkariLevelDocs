@@ -1,6 +1,7 @@
 import {defineConfig} from 'vitepress'
 
 export default defineConfig({
+    base: '/',
     title: "AkariLevel",
     description: "澄明等级",
     head: [
