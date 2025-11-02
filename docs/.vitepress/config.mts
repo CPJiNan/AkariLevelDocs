@@ -20,7 +20,7 @@ export default defineConfig({
                     {
                         text: 'JavaScript 脚本',
                         link: '/basic/script/',
-                        collapsed: true,
+                        collapsed: false,
                         items: [
                             {text: 'AutoJoin', link: '/basic/script/autojoin/'},
                             {text: 'ExpAddition', link: '/basic/script/expaddition/'},
