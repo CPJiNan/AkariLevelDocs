@@ -20,10 +20,12 @@ export default defineConfig({
                     {
                         text: 'JavaScript 脚本',
                         link: '/basic/script/',
+                        collapsed: true,
                         items: [
                             {text: 'AutoJoin', link: '/basic/script/autojoin/'},
                             {text: 'ExpAddition', link: '/basic/script/expaddition/'},
-                            {text: 'ExpMessage', link: '/basic/script/expmessage/'}
+                            {text: 'ExpMessage', link: '/basic/script/expmessage/'},
+                            {text: 'TeamShareExp', link: '/basic/script/teamshareexp/'}
                         ]
                     }
                 ]
