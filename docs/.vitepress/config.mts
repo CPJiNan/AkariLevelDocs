@@ -18,7 +18,7 @@ export default defineConfig({
                 text: '🏷 基础教程',
                 items: [
                     {
-                        text: '脚本拓展',
+                        text: 'JavaScript 脚本',
                         link: '/basic/script/',
                         items: [
                             {text: 'AutoJoin', link: '/basic/script/autojoin/'},
