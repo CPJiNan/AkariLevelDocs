@@ -1,8 +1,8 @@
-# 等级组 | LevelGroup
+# LevelGroup
 
 ## 概览
 
-`LevelGroup` 是 `com.github.cpjinan.plugin.akarilevel.level` 包下的接口。
+**等级组** `LevelGroup` 是 `top.cpjinan.akarilevel.level` 包下的接口。
 
 它提供了等级组管理、成员管理、等级与经验管理等功能。
 
@@ -39,11 +39,11 @@
 ## 方法列表
 
 ``` kotlin
-package com.github.cpjinan.plugin.akarilevel.level
+package top.cpjinan.akarilevel.level
 
 /**
  * AkariLevel
- * com.github.cpjinan.plugin.akarilevel.level
+ * top.cpjinan.akarilevel.level
  *
  * 等级组接口。
  *

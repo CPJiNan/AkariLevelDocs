@@ -36,21 +36,21 @@ export default defineConfig({
                 ]
             },
             {
-                text: '🔥 开始',
-                items: [
-                    {text: '💻 安装 & 配置', link: '/start/install/'},
-                ]
-            },
-            {
                 text: '🛠️ 开发',
                 items: [
                     {
-                        text: '📦 API',
+                        text: 'API',
                         items: [
                             {text: 'LevelGroup', link: '/develop/api/levelgroup/'},
                             {text: 'ConfigLevelGroup', link: '/develop/api/configlevelgroup/'}
                         ]
                     }
+                ]
+            },
+            {
+                text: '🔥 开始',
+                items: [
+                    {text: '💻 安装 & 配置', link: '/start/install/'},
                 ]
             }
         ],

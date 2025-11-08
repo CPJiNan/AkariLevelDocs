@@ -1,8 +1,8 @@
-# 配置等级组 | ConfigLevelGroup
+# ConfigLevelGroup
 
 ## 概览
 
-`ConfigLevelGroup` 是 `com.github.cpjinan.plugin.akarilevel.level` 包下的类。
+**配置等级组** `ConfigLevelGroup` 是 `top.cpjinan.akarilevel.level` 包下的类。
 
 它是插件默认的 `LevelGroup` 接口实现，可以从配置文件获取等级组。
 
@@ -16,17 +16,16 @@
     levelGroup.register()
     ```
 
-   其中，`Configuration` 是 `com.github.cpjinan.plugin.akarilevel.taboolib.module.configuration.Configuration`，需要使用插件的
-   API 版本作为依赖。
+   其中，`Configuration` 是 `top.cpjinan.akarilevel.taboolib.module.configuration.Configuration`，需要使用插件的 API 版本作为依赖。
 
 ## 方法列表
 
 ``` kotlin
-package com.github.cpjinan.plugin.akarilevel.level
+package top.cpjinan.akarilevel.level
 
 /**
  * AkariLevel
- * com.github.cpjinan.plugin.akarilevel.level
+ * top.cpjinan.akarilevel.level
  *
  * [LevelGroup] 接口的实现，从配置文件获取等级组。
  *
