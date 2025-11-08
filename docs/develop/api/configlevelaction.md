@@ -6,7 +6,7 @@
 
 通过实现 `ConfigLevelAction` 接口，可以做到：
 
-- 注册自定义升级动作解析器
+- 注册自定义升级动作处理器
 
 `KetherLevelAction` 是插件默认的 `ConfigLevelAction` 接口实现，可以在成员升级时执行 Kether 脚本。
 

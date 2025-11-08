@@ -6,7 +6,7 @@
 
 通过实现 `ConfigLevelCondition` 接口，可以做到：
 
-- 注册自定义升级条件解析器
+- 注册自定义升级条件处理器
 
 `KetherLevelCondition` 是插件默认的 `ConfigLevelCondition` 接口实现，可以在成员升级时检查 Kether 条件。
 
