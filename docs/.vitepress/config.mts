@@ -42,7 +42,9 @@ export default defineConfig({
                         text: 'API',
                         items: [
                             {text: 'LevelGroup', link: '/develop/api/levelgroup/'},
-                            {text: 'ConfigLevelGroup', link: '/develop/api/configlevelgroup/'}
+                            {text: 'ConfigLevelGroup', link: '/develop/api/configlevelgroup/'},
+                            {text: 'ConfigLevelAction', link: '/develop/api/configlevelaction/'},
+                            {text: 'ConfigLevelCondition', link: '/develop/api/configlevelcondition/'}
                         ]
                     }
                 ]
