@@ -42,7 +42,7 @@ export default defineConfig({
                 ]
             },
             {
-                text: '🛠️ 开发',
+                text: '🛠️ 开发文档',
                 items: [
                     {
                         text: 'API',
