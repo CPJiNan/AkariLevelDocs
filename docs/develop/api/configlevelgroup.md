@@ -16,7 +16,8 @@
     levelGroup.register()
     ```
 
-   其中，`Configuration` 是 `top.cpjinan.akarilevel.taboolib.module.configuration.Configuration`，需要使用插件的 API 版本作为依赖。
+   其中，`Configuration` 是 `top.cpjinan.akarilevel.taboolib.module.configuration.Configuration`，需要使用插件的 API
+   版本作为依赖。
 
 ## 方法列表
 

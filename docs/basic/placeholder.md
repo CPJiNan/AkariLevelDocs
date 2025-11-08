@@ -1,4 +1,4 @@
-# 变量
+# PlaceholderAPI 变量
 
 AkariLevel 提供了丰富的 **PlaceholderAPI** 变量。
 

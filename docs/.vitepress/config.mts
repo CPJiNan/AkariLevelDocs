@@ -17,7 +17,7 @@ export default defineConfig({
                 text: '🏷 基础教程',
                 items: [
                     {text: '命令', link: '/basic/command'},
-                    {text: '变量', link: '/basic/placeholder'},
+                    {text: 'PlaceholderAPI 变量', link: '/basic/placeholder'},
                     {text: 'MythicMobs 掉落', link: '/basic/mythicmobs'},
                     {
                         text: 'JavaScript 脚本',
