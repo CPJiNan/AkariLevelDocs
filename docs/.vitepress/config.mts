@@ -31,7 +31,8 @@ export default defineConfig({
                             {text: 'Track', link: '/basic/script/track/'},
                             {text: 'VanillaExp', link: '/basic/script/vanillaexp/'}
                         ]
-                    }
+                    },
+                    {text: 'Kether 脚本', link: '/basic/kether'}
                 ]
             },
             {
