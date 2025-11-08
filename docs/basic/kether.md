@@ -31,7 +31,7 @@ akarilevel:has-member <member> <levelGroup>
 **语法**
 
 ```
-akarilevel:add-member <member> <levelGroup>
+akarilevel:add-member <member> <levelGroup> <source>
 ```
 
 ### remove-member
@@ -43,7 +43,7 @@ akarilevel:add-member <member> <levelGroup>
 **语法**
 
 ```
-akarilevel:remove-member <member> <levelGroup>
+akarilevel:remove-member <member> <levelGroup> <source>
 ```
 
 ### get-level
