@@ -1,4 +1,6 @@
-# 🔧 命令
+# 命令
+
+## 命令列表
 
 | 命令                                                               | 描述           |
 |------------------------------------------------------------------|--------------|
@@ -24,3 +26,13 @@
 | `/akarilevel member exp remove <member> <levelGroup> <amount>`   | 移除成员经验       |
 | `/akarilevel member levelUp <levelGroup> <member>`               | 执行成员升级       |
 | `/akarilevel reload`                                             | 重载插件         |
+
+## 权限列表
+
+| 权限                                  | 描述      | 默认 |
+|-------------------------------------|---------|----|
+| `AkariLevel.command.use`            | 命令使用权限  | OP |
+| `AkariLevel.command.help.use`       | 命令帮助权限  | OP |
+| `AkariLevel.command.levelGroup.use` | 等级组命令权限 | OP |
+| `AkariLevel.command.member.use`     | 成员命令权限  | OP |
+| `AkariLevel.command.reload.use`     | 重载命令权限  | OP |

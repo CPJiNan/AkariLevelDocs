@@ -16,6 +16,9 @@ export default defineConfig({
             {
                 text: '🏷 基础教程',
                 items: [
+                    {text: '命令', link: '/basic/command'},
+                    {text: '变量', link: '/basic/placeholder'},
+                    {text: 'MythicMobs 掉落', link: '/basic/mythicmobs'},
                     {
                         text: 'JavaScript 脚本',
                         link: '/basic/script/',
@@ -35,9 +38,6 @@ export default defineConfig({
                 text: '🔥 开始',
                 items: [
                     {text: '💻 安装 & 配置', link: '/start/install/'},
-                    {text: '🔧 命令', link: '/start/command/'},
-                    {text: '🔒 权限', link: '/start/permission/'},
-                    {text: '🏷 变量', link: '/start/placeholder/'},
                     {text: '🗡 经验掉落', link: '/start/drop/'}
                 ]
             },

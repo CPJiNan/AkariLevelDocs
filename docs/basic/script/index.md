@@ -6,7 +6,7 @@ AkariLevel 提供了对 JavaScript 的支持，你可以通过脚本注册**命�
 
 ## 快速开始
 
-脚本文件放置在 `plugins/AkariLevel/script` 路径下，将会在插件启用时自动加载。
+脚本文件位于 `plugins/AkariLevel/script` 路径下，将会在插件启用时自动加载。
 
 部分脚本在使用前可能需要进行配置，修改并保存后重载插件即可生效。
 
