@@ -207,7 +207,7 @@ Nashorn 仅支持 ECMAScript 5.1，不支持 ES6+ 特性。
 
 ### 2. 能否在脚本中调用其他插件的 API？
 
-直接在脚本中使用对应插件的包名即可。
+直接在脚本中调用对应插件的包名即可。
 
 ``` javascript
 var PlaceholderAPI = Packages.me.clip.placeholderapi.PlaceholderAPI;
