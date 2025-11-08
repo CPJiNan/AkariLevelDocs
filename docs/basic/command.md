@@ -1,4 +1,4 @@
-# 命令
+# 插件命令
 
 AkariLevel 注册了大量命令，你可以通过 `/akarilevel` 或 `/al` 查看命令帮助。
 

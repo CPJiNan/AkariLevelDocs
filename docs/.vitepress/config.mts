@@ -16,23 +16,29 @@ export default defineConfig({
             {
                 text: '🏷 基础教程',
                 items: [
-                    {text: '命令', link: '/basic/command'},
+                    {text: '插件命令', link: '/basic/command'},
                     {text: 'PlaceholderAPI 变量', link: '/basic/placeholder'},
                     {text: 'MythicMobs 掉落', link: '/basic/mythicmobs'},
                     {
                         text: 'JavaScript 脚本',
-                        link: '/basic/script/',
+                        link: '/basic/javascript/',
                         collapsed: true,
                         items: [
-                            {text: 'AutoJoin', link: '/basic/script/autojoin/'},
-                            {text: 'ExpAddition', link: '/basic/script/expaddition/'},
-                            {text: 'ExpMessage', link: '/basic/script/expmessage/'},
-                            {text: 'TeamShareExp', link: '/basic/script/teamshareexp/'},
-                            {text: 'Track', link: '/basic/script/track/'},
-                            {text: 'VanillaExp', link: '/basic/script/vanillaexp/'}
+                            {text: 'AutoJoin', link: '/basic/javascript/autojoin/'},
+                            {text: 'ExpAddition', link: '/basic/javascript/expaddition/'},
+                            {text: 'ExpMessage', link: '/basic/javascript/expmessage/'},
+                            {text: 'TeamShareExp', link: '/basic/javascript/teamshareexp/'},
+                            {text: 'Track', link: '/basic/javascript/track/'},
+                            {text: 'VanillaExp', link: '/basic/javascript/vanillaexp/'}
                         ]
                     },
                     {text: 'Kether 脚本', link: '/basic/kether'}
+                ]
+            },
+            {
+                text: '📖 进阶教程',
+                items: [
+                    {text: 'JavaScript 脚本', link: '/advanced/javascript'}
                 ]
             },
             {
@@ -47,12 +53,6 @@ export default defineConfig({
                             {text: 'ConfigLevelCondition', link: '/develop/api/configlevelcondition/'}
                         ]
                     }
-                ]
-            },
-            {
-                text: '🔥 开始',
-                items: [
-                    {text: '💻 安装 & 配置', link: '/start/install/'},
                 ]
             }
         ],
