@@ -38,7 +38,6 @@ export default defineConfig({
                 text: '🔥 开始',
                 items: [
                     {text: '💻 安装 & 配置', link: '/start/install/'},
-                    {text: '🗡 经验掉落', link: '/start/drop/'}
                 ]
             },
             {
