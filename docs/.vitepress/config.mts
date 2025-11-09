@@ -117,5 +117,9 @@ export default defineConfig({
         darkModeSwitchTitle: '切换到深色模式',
         skipToContentLabel: '跳转到内容'
     },
+    locales: {
+        root: {label: '简体中文', lang: 'zh-CN'},
+        en: {label: 'English', lang: 'en-US'}
+    },
     lastUpdated: true
 })
