@@ -53,7 +53,9 @@ Database:
 ### 1. Level Group Edit Name
 
 The `Level Group Edit Name` is the unique identifier for a level group.
+
 It is the name of the first-level node in each configuration file in the `plugins/AkariLevel/level` folder.
+
 For example, create a level group named `LevelGroup` in a configuration file named `CustomLevel.yml`.
 
 ``` yaml
@@ -68,6 +70,7 @@ The edit name of this level group is `LevelGroup`, not `CustomLevel` or `Level G
 
 When the plugin is loaded for the first time, an `Example.yml` configuration file will be automatically generated in the
 `level` folder, containing a sample level group with the edit name `Example`.
+
 You can modify the basic information of this level group, for example:
 
 ``` yaml
@@ -91,6 +94,7 @@ SurvivalLevel:
 ### 3. Subscribe to Experience Sources
 
 `Experience Sources` are strings used to distinguish different scenarios where experience change events occur.
+
 You can subscribe to experience sources to add specified types of experience to level groups.
 
 ``` yaml
@@ -104,8 +108,10 @@ Example:
 ```
 
 For example, `MYTHICMOBS_DROP_EXP` adds experience through MythicMobs experience drops.
+
 For every 1 point of experience gained by players through this method, the Example level group will gain `1 * 2.0 = 2`
 points of experience.
+
 Additionally, `VANILLA_EXP_CHANGE` is the vanilla experience source, with a default multiplier of `0.0`.
 
 ### 4. Set Experience Formulas
@@ -150,6 +156,7 @@ Key:
 
 Key level configuration can use plugin built-in variables such as `{member}`, `{levelGroup}`, `{level}`, and also
 supports PlaceholderAPI variables.
+
 When at non-key levels, the settings from the previous key level will be automatically applied.
 
 ## Next Steps
