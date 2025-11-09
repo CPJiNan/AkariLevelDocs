@@ -12,7 +12,7 @@ hero:
   actions:
     - theme: brand
       text: 开始使用 →
-      link: /intro/
+      link: /intro
     - theme: alt
       text: Github
       link: https://github.com/CPJiNan/AkariLevel
