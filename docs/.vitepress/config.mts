@@ -8,38 +8,38 @@ export default defineConfig({
     ],
     themeConfig: {
         nav: [
-            {text: '文档', link: '/intro'},
+            {text: '文档', link: '/intro/'},
         ],
 
         sidebar: [
-            {text: '✨ 插件简介', link: '/intro'},
-            {text: '👋🏻 快速上手', link: '/start'},
+            {text: '✨ 插件简介', link: '/intro/'},
+            {text: '👋🏻 快速上手', link: '/start/'},
             {
                 text: '🏷 基础教程',
                 items: [
-                    {text: '插件命令', link: '/basic/command'},
-                    {text: 'PlaceholderAPI 变量', link: '/basic/placeholder'},
-                    {text: 'MythicMobs 掉落', link: '/basic/mythicmobs'},
+                    {text: '插件命令', link: '/basic/command/'},
+                    {text: 'PlaceholderAPI 变量', link: '/basic/placeholder/'},
+                    {text: 'MythicMobs 掉落', link: '/basic/mythicmobs/'},
                     {
                         text: 'JavaScript 脚本',
-                        link: '/basic/javascript',
+                        link: '/basic/javascript/',
                         collapsed: true,
                         items: [
-                            {text: 'AutoJoin', link: '/basic/javascript/autojoin'},
-                            {text: 'ExpAddition', link: '/basic/javascript/expaddition'},
-                            {text: 'ExpMessage', link: '/basic/javascript/expmessage'},
-                            {text: 'TeamShareExp', link: '/basic/javascript/teamshareexp'},
-                            {text: 'Track', link: '/basic/javascript/track'},
-                            {text: 'VanillaExp', link: '/basic/javascript/vanillaexp'}
+                            {text: 'AutoJoin', link: '/basic/javascript/autojoin/'},
+                            {text: 'ExpAddition', link: '/basic/javascript/expaddition/'},
+                            {text: 'ExpMessage', link: '/basic/javascript/expmessage/'},
+                            {text: 'TeamShareExp', link: '/basic/javascript/teamshareexp/'},
+                            {text: 'Track', link: '/basic/javascript/track/'},
+                            {text: 'VanillaExp', link: '/basic/javascript/vanillaexp/'}
                         ]
                     },
-                    {text: 'Kether 脚本', link: '/basic/kether'}
+                    {text: 'Kether 脚本', link: '/basic/kether/'}
                 ]
             },
             {
                 text: '📖 进阶教程',
                 items: [
-                    {text: 'JavaScript 脚本', link: '/advanced/javascript'}
+                    {text: 'JavaScript 脚本', link: '/advanced/javascript/'}
                 ]
             },
             {
