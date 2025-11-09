@@ -161,7 +161,7 @@ When at non-key levels, the settings from the previous key level will be automat
 
 ## Next Steps
 
-- [Plugin Commands](/docs/basic/command)
-- [PlaceholderAPI Variables](/docs/basic/placeholder)
-- [MythicMobs Drops](/docs/basic/mythicmobs)
-- [JavaScript Scripts](/docs/basic/javascript/)
+- [Plugin Commands](/en/docs/basic/command)
+- [PlaceholderAPI Variables](/en/docs/basic/placeholder)
+- [MythicMobs Drops](/en/docs/basic/mythicmobs)
+- [JavaScript Scripts](/en/docs/basic/javascript/)
