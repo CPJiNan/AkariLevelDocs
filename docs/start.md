@@ -160,4 +160,4 @@ Key:
 - [插件命令](/basic/command)
 - [PlaceholderAPI 变量](/basic/placeholder)
 - [MythicMobs 掉落](/basic/mythicmobs)
-- [JavaScript 脚本](/basic/javascript/)
+- [JavaScript 脚本](/basic/javascript)
