@@ -3,19 +3,15 @@ layout: home
 
 hero:
   name: AkariLevel
-  text: 澄明等级
-  tagline: 基于 TabooLib 框架开发的 Bukkit 等级插件
+  tagline: Advanced Level System for Bukkit Server
   image:
     src: /hero.png
     alt: AkariLevel
   actions:
     - theme: brand
-      text: 开始使用 →
+      text: Get Started →
       link: /docs/intro
     - theme: alt
       text: Github
       link: https://github.com/CPJiNan/AkariLevel
-    - theme: alt
-      text: QQ 群
-      link: https://qm.qq.com/q/91DcdBuRvW
 ---

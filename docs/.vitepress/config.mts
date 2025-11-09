@@ -3,10 +3,9 @@ import {defineConfig} from 'vitepress'
 export default defineConfig({
     title: "AkariLevel",
     description: "澄明等级",
-    head: [
-        ['link', {rel: 'icon', href: '/favicon.png'}]
-    ],
     themeConfig: {
+        logo: '/favicon.png',
+
         nav: [
             {text: '文档', link: '/docs/intro'},
         ],
