@@ -56,6 +56,52 @@ export default defineConfig({
                         }
                     ]
                 }
+            ],
+            '/en/docs/': [
+                {text: '✨ Plugin Introduction', link: '/en/docs/intro'},
+                {text: '👋🏻 Quick Start', link: '/en/docs/start'},
+                {
+                    text: '🏷 Basic Tutorial',
+                    items: [
+                        {text: 'Plugin Commands', link: '/en/docs/basic/command'},
+                        {text: 'PlaceholderAPI Variables', link: '/en/docs/basic/placeholder'},
+                        {text: 'MythicMobs Drops', link: '/en/docs/basic/mythicmobs'},
+                        {
+                            text: 'JavaScript Scripts',
+                            link: '/en/docs/basic/javascript/',
+                            collapsed: true,
+                            items: [
+                                {text: 'AutoJoin', link: '/en/docs/basic/javascript/autojoin'},
+                                {text: 'ExpAddition', link: '/en/docs/basic/javascript/expaddition'},
+                                {text: 'ExpMessage', link: '/en/docs/basic/javascript/expmessage'},
+                                {text: 'TeamShareExp', link: '/en/docs/basic/javascript/teamshareexp'},
+                                {text: 'Track', link: '/en/docs/basic/javascript/track'},
+                                {text: 'VanillaExp', link: '/en/docs/basic/javascript/vanillaexp'}
+                            ]
+                        },
+                        {text: 'Kether Scripts', link: '/en/docs/basic/kether'}
+                    ]
+                },
+                {
+                    text: '📖 Advanced Tutorial',
+                    items: [
+                        {text: 'JavaScript Scripts', link: '/en/docs/advanced/javascript'}
+                    ]
+                },
+                {
+                    text: '🛠️ Develop Document',
+                    items: [
+                        {
+                            text: 'API',
+                            items: [
+                                {text: 'LevelGroup', link: '/en/docs/develop/api/levelgroup'},
+                                {text: 'ConfigLevelGroup', link: '/en/docs/develop/api/configlevelgroup'},
+                                {text: 'ConfigLevelAction', link: '/en/docs/develop/api/configlevelaction'},
+                                {text: 'ConfigLevelCondition', link: '/en/docs/develop/api/configlevelcondition'}
+                            ]
+                        }
+                    ]
+                }
             ]
         },
 
