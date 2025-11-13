@@ -4,6 +4,15 @@ AkariLevel 提供了对 JavaScript 的支持，使用 Nashorn 引擎执行 JavaS
 
 本篇教程主要讲述自定义脚本的编写方法。如需了解如何使用插件内置脚本，请移步 **基础教程 - JavaScript 脚本**。
 
+## 生命周期
+
+| 生命周期              | 触发时机        |
+|-------------------|-------------|
+| `onServerEnable`  | 服务器启动       |
+| `onServerDisable` | 服务器关闭       |
+| `onPluginEnable`  | 服务器启动、插件重载后 |
+| `onPluginDisable` | 服务器关闭、插件重载前 |
+
 ## 内置依赖
 
 在自定义脚本中，以下类可被直接调用。
