@@ -8,7 +8,7 @@ AkariLevel 支持在**升级条件**、**升级动作**中使用 Kether 脚本�
 
 由 AkariLevel 提供的语句，在使用时应带有命名空间前缀 `akarilevel:`。
 
-完整 Kether 语句列表请查看 [Kether Explorer](https://taboo.8aka.cn/kether-list)。
+完整 Kether 语句列表请查看 [Kether Explorer](https://taboolib.hhhhhy.kim/kether-list)。
 
 ### has-member
 
