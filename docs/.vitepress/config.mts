@@ -33,7 +33,8 @@ export default defineConfig({
                                 {text: 'VanillaExp', link: '/docs/basic/javascript/vanillaexp'}
                             ]
                         },
-                        {text: 'Kether 脚本', link: '/docs/basic/kether'}
+                        {text: 'Kether 脚本', link: '/docs/basic/kether'},
+                        {text: '经验加成器', link: '/docs/basic/booster'}
                     ]
                 },
                 {
