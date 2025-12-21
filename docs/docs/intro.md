@@ -1,6 +1,11 @@
 # 插件简介
 
 ![](/cover.png)
+![](/levelup.png)
+![](/help.png)
+![](/levelgroup.png)
+![](/member.png)
+![](/booster.png)
 
 基于 TabooLib 框架开发的 Bukkit 等级插件。
 
