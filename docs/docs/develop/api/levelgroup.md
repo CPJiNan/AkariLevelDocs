@@ -22,14 +22,14 @@
     val levelGroup = LevelGroup.getLevelGroups()["等级组编辑名"]
     ```
 
-2. 注册 / 取消注册等级组
+2. 注册/取消注册等级组
 
     ``` kotlin
     levelGroup.register()
     levelGroup.unregister()
     ```
 
-3. 设置成员等级 / 经验
+3. 设置成员等级/经验
 
     ``` kotlin
     levelGroup.setMemberLevel("成员名称", 10, "等级来源")
