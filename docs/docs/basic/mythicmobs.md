@@ -17,3 +17,5 @@ AkariLevel 提供了对 MythicMobs 的支持，你可以通过 `Exp-Drops` 配�
   Exp-Drops:
   - Example 100-150 0.5
 ```
+
+将会有 `50%` 几率以 `MYTHICMOBS_DROP_EXP` 来源为 `Example` 等级组增加 `100` 到 `150` 点经验。
