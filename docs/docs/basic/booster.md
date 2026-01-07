@@ -14,27 +14,28 @@ AkariLevel 支持创建自定义经验加成器，允许为玩家提供额外经
 # 1. 基础用法。
 /akarilevel booster add PlayerName 1.5倍经验加成器 1.5
 # 2. 设置经验来源限制。
-/akarilevel booster add PlayerName 2.0倍经验加成器 2.0 --source=MYTHICMOBS_DROP_EXP
+/akarilevel booster add PlayerName 2.0倍经验加成器 2.0 --source=COMMAND_ADD_EXP
 # 3. 设置持续时长和经验来源限制。
-/akarilevel booster add PlayerName 3.0倍经验加成器 3.0 --duration=1d12h --source=MYTHICMOBS_DROP_EXP
+/akarilevel booster add PlayerName 3.0倍经验加成器 3.0 --duration=1d12h --source=COMMAND_ADD_EXP,MYTHICMOBS_DROP_EXP
 ```
 
 **参数列表**
 
-| 参数           | 描述                              | 默认值             |
-|--------------|---------------------------------|-----------------|
-| `id`         | ID                              | 随机八位字母数字组合      |
-| `type`       | 类型                              | 空字符串            |
-| `duration`   | 持续时长                            | 永久              |
-| `levelGroup` | 等级组限制                           | 空字符串            |
-| `source`     | [经验来源](/docs/start#_3-订阅经验来源)限制 | COMMAND_ADD_EXP |
+| 参数           | 描述                              | 默认值                                                    |
+|--------------|---------------------------------|--------------------------------------------------------|
+| `id`         | ID                              | 随机八位字母数字组合                                             |
+| `type`       | 类型                              | 空字符串                                                   |
+| `duration`   | 持续时长                            | 永久                                                     |
+| `levelGroup` | 等级组限制                           | 空字符串列表                                                 |
+| `source`     | [经验来源](/docs/start#_3-订阅经验来源)限制 | COMMAND_ADD_EXP、MYTHICMOBS_DROP_EXP、VANILLA_EXP_CHANGE |
 
 **注意事项**
 
 - 使用 `--key=value` 指定参数。所有参数可选，未指定的参数将自动使用默认值。
 - `type` 是经验加成器类型。**同种类型取最大倍率，不同类型倍率相乘**。
 - `duration` 是持续时长。单位为 **d->天**/**h->时**/**m->分**/**s->秒**。
-- `source` 是经验来源限制。未指定该参数时，只加成通过 **exp add** 命令增加的经验。
+- `levelGroup` 是等级组限制。使用 `,` 分隔多个等级组。
+- `source` 是经验来源限制。使用 `,` 分隔多个经验来源。
 
 ### 2. 查看经验加成器信息
 
