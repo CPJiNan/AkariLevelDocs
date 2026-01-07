@@ -27,6 +27,7 @@ AkariLevel 注册了大量命令，你可以通过 `/akarilevel` 或 `/al` 查�
 | `/akarilevel member exp add <member> <levelGroup> <amount>`      | 增加成员经验       |
 | `/akarilevel member exp remove <member> <levelGroup> <amount>`   | 移除成员经验       |
 | `/akarilevel member levelUp <levelGroup> <member>`               | 执行成员升级       |
+| `/akarilevel booster`                                            | 查看经验加成器命令帮助  |
 | `/akarilevel booster info <member> <booster>`                    | 查看经验加成器信息    |
 | `/akarilevel booster list <member>`                              | 查看经验加成器列表    |
 | `/akarilevel booster add <member> <name> <multiplier>`           | 新增经验加成器      |
