@@ -26,7 +26,6 @@ var AkariLevel = PluginManager.getPlugin("AkariLevel");
 
 var LevelGroup = Packages.top.cpjinan.akarilevel.level.LevelGroup;
 var ConfigLevelGroup = Packages.top.cpjinan.akarilevel.level.ConfigLevelGroup;
-var Booster = Packages.top.cpjinan.akarilevel.booster.Booster;
 
 var Command = Packages.top.cpjinan.akarilevel.script.ScriptCommand;
 var Listener = Packages.top.cpjinan.akarilevel.script.ScriptListener;

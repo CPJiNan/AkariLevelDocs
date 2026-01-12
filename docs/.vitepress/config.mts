@@ -33,8 +33,7 @@ export default defineConfig({
                                 {text: 'VanillaExp', link: '/docs/basic/javascript/vanillaexp'}
                             ]
                         },
-                        {text: 'Kether 脚本', link: '/docs/basic/kether'},
-                        {text: '经验加成器', link: '/docs/basic/booster'}
+                        {text: 'Kether 脚本', link: '/docs/basic/kether'}
                     ]
                 },
                 {
@@ -52,8 +51,7 @@ export default defineConfig({
                                 {text: 'LevelGroup', link: '/docs/develop/api/levelgroup'},
                                 {text: 'ConfigLevelGroup', link: '/docs/develop/api/configlevelgroup'},
                                 {text: 'ConfigLevelAction', link: '/docs/develop/api/configlevelaction'},
-                                {text: 'ConfigLevelCondition', link: '/docs/develop/api/configlevelcondition'},
-                                {text: 'Booster', link: '/docs/develop/api/booster'}
+                                {text: 'ConfigLevelCondition', link: '/docs/develop/api/configlevelcondition'}
                             ]
                         }
                     ]

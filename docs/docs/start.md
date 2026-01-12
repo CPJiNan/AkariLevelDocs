@@ -161,4 +161,3 @@ Key:
 - [PlaceholderAPI 变量](/docs/basic/placeholder)
 - [MythicMobs 掉落](/docs/basic/mythicmobs)
 - [JavaScript 脚本](/docs/basic/javascript/)
-- [经验加成器](/docs/basic/booster)

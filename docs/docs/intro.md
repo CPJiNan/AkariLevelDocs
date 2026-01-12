@@ -28,8 +28,6 @@
 
 ![](/member.png)
 
-![](/booster.png)
-
 ## 相关链接
 
 - **GitHub**：[https://github.com/CPJiNan/AkariLevel](https://github.com/CPJiNan/AkariLevel)

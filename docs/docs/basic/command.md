@@ -27,22 +27,14 @@ AkariLevel 注册了大量命令，你可以通过 `/akarilevel` 或 `/al` 查�
 | `/akarilevel member exp add <member> <levelGroup> <amount>`      | 增加成员经验       |
 | `/akarilevel member exp remove <member> <levelGroup> <amount>`   | 移除成员经验       |
 | `/akarilevel member levelUp <levelGroup> <member>`               | 执行成员升级       |
-| `/akarilevel booster`                                            | 查看经验加成器命令帮助  |
-| `/akarilevel booster info <member> <booster>`                    | 查看经验加成器信息    |
-| `/akarilevel booster list <member>`                              | 查看经验加成器列表    |
-| `/akarilevel booster add <member> <name> <multiplier>`           | 新增经验加成器      |
-| `/akarilevel booster remove <member> <booster>`                  | 移除经验加成器      |
-| `/akarilevel booster enable <member> <booster>`                  | 启用经验加成器      |
-| `/akarilevel booster disable <member> <booster>`                 | 禁用经验加成器      |
 | `/akarilevel reload`                                             | 重载插件         |
 
 ## 权限列表
 
-| 权限                                  | 描述          | 默认 |
-|-------------------------------------|-------------|----|
-| `AkariLevel.command.use`            | 命令使用权限      | OP |
-| `AkariLevel.command.help.use`       | 命令帮助权限      | OP |
-| `AkariLevel.command.levelGroup.use` | 等级组命令权限     | OP |
-| `AkariLevel.command.member.use`     | 成员命令权限      | OP |
-| `AkariLevel.command.booster.use`    | 经验加成器命令使用权限 | OP |
-| `AkariLevel.command.reload.use`     | 重载命令权限      | OP |
+| 权限                                  | 描述      | 默认 |
+|-------------------------------------|---------|----|
+| `AkariLevel.command.use`            | 命令使用权限  | OP |
+| `AkariLevel.command.help.use`       | 命令帮助权限  | OP |
+| `AkariLevel.command.levelGroup.use` | 等级组命令权限 | OP |
+| `AkariLevel.command.member.use`     | 成员命令权限  | OP |
+| `AkariLevel.command.reload.use`     | 重载命令权限  | OP |
