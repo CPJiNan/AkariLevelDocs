@@ -19,5 +19,5 @@ var sources = ["MYTHICMOBS_DROP_EXP", "VANILLA_EXP_CHANGE"];
 修改 `sendMessage` 方法的参数。
 
 ``` javascript
-player.sendMessage("§7Exp +§f" + expAmount + "§7.")
+player.sendMessage("§7Exp +§f" + expAmount + "§7.");
 ```
